@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Practice Problems</string>
+
+    <!-- Anagram  -->
+    <string name="anagram">Anagram</string>
+    <string name="are_anagram">Are Words Anagram?</string>
+    <string name="anagram_a">cat</string>
+    <string name="anagram_b">act</string>
+    <string name="clear">Clear</string>
+
+    <!--  Phone Dialer  -->
+    <string name="phone_dialer">Phone Dialer</string>
+    <string name="sample_phone">Enter phone number</string>
+    <string name="generate_possible_words">Generate Possible Words</string>
+    <string name="enter_value">Enter a value</string>
+
+    <!--  HTree  -->
+    <string name="htree">HTree</string>
+    <string name="depth_too_great">Depth too high!</string>
+    <string name="htree_level">HTree Level:</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+
+    <!--  Animation  -->
+    <string name="animation">Animation</string>
+    <string name="animation_first_letter">p</string>
+    <string name="animation_second_letter">d</string>
+</resources>

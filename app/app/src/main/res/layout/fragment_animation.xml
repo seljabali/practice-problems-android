@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:clickable="true"
+    android:gravity="center"
+    android:padding="@dimen/double_spacing"
+    android:layout_gravity="center"
+    android:background="?attr/colorPrimary">
+
+    <TextView
+        android:id="@+id/firstLetterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="@dimen/xxxl_text_size"
+        android:text="@string/animation_first_letter"/>
+
+    <TextView
+        android:id="@+id/secondLetterTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="@dimen/xxxl_text_size"
+        android:text="@string/animation_second_letter"/>
+
+</FrameLayout>
