@@ -3,7 +3,7 @@ Checks if two texts are anagrams of each other in O(n) time. <br> <br>
 ![screenshot](https://github.com/seljabali/practice-problems-android/blob/master/screen-shots/anagram.png)
 
 ## HTree
-Draws an HTree in the desired level. <br> <br>
+Draws an [HTree](https://en.wikipedia.org/wiki/H_tree) in the desired level. <br> <br>
 ![screenshot](https://github.com/seljabali/practice-problems-android/blob/master/screen-shots/htree.png)
 
 ## Phone Dialer
