@@ -12,6 +12,7 @@
             android:xlargeScreens="true"/>
 
     <application
+            android:name="com.seljabali.practiceproblems.PracticeProblemsApplication"
             android:allowBackup="false"
             android:fullBackupContent="false"
             android:icon="@mipmap/ic_launcher"

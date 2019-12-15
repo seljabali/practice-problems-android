@@ -9,8 +9,11 @@ import com.seljabali.practiceproblems.R
 import com.seljabali.practiceproblems.ui.HomeActivity
 import com.seljabali.practiceproblems.ui.anagram.AnagramFragment
 import com.seljabali.practiceproblems.ui.animation.AnimationFragment
+import com.seljabali.practiceproblems.ui.clock.ClockFragment
+import com.seljabali.practiceproblems.ui.compression.CompressTextFragment
 import com.seljabali.practiceproblems.ui.htree.HTreeFragment
 import com.seljabali.practiceproblems.ui.phonedialer.PhoneDialerFragment
+import com.seljabali.practiceproblems.ui.stocks.StocksFragment
 import kotlinx.android.synthetic.main.fragment_landing_page.*
 
 class LandingPageFragment : BaseFragment() {
@@ -31,9 +34,12 @@ class LandingPageFragment : BaseFragment() {
         htreeButton.setOnClickListener { showFragment(HTreeFragment(), HTreeFragment.TAG) }
         phoneDialerButton.setOnClickListener { showFragment(PhoneDialerFragment(), PhoneDialerFragment.TAG) }
         animationButton.setOnClickListener { showFragment(AnimationFragment(), AnimationFragment.TAG) }
+        compressButton.setOnClickListener { showFragment(CompressTextFragment(), CompressTextFragment.TAG) }
+        clockButton.setOnClickListener { showFragment(ClockFragment(), ClockFragment.TAG) }
+        stocksButton.setOnClickListener { showFragment(StocksFragment(), StocksFragment.TAG) }
     }
 
-    fun showFragment(baseFragment: BaseFragment, tag: String) {
+    private fun showFragment(baseFragment: BaseFragment, tag: String) {
         (baseActivity as HomeActivity).showFragment(baseFragment, tag)
     }
 }

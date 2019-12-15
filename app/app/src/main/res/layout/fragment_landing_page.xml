@@ -37,5 +37,23 @@
             android:layout_height="wrap_content"
             android:text="@string/animation" />
 
+        <Button
+            android:id="@+id/compressButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/compress_text" />
+
+        <Button
+            android:id="@+id/clockButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clock" />
+
+        <Button
+            android:id="@+id/stocksButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stocks" />
+
     </LinearLayout>
 </ScrollView>

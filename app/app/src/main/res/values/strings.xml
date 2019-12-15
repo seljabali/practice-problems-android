@@ -25,4 +25,16 @@
     <string name="animation">Animation</string>
     <string name="animation_first_letter">p</string>
     <string name="animation_second_letter">d</string>
+
+    <!--  Compress Text  -->
+    <string name="compress_text">Compress Text</string>
+    <string name="compress">Compress</string>
+
+    <!-- Clock -->
+    <string name="clock">Clock</string>
+
+    <!-- Stocks -->
+    <string name="stocks">Stocks</string>
+    <string name="find_highest_profit">Find Highest Profit</string>
+    <string name="stock_prices_during_day">Stock prices during day</string>
 </resources>
