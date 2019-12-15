@@ -32,7 +32,7 @@ class StocksFragment : BaseFragment() {
         val inputtedText = inputATextView.text.toString()
         if (inputtedText.isBlank()) return
         val stockPrices = inputtedText.split(",", ignoreCase = true).map { it.trim().toInt() }
-        outputTextView.text = getHighestProfitSlowly(stockPrices).toString()
+        outputTextView.text = getHighestProfitQuickly(stockPrices).toString()
 
     }
 
@@ -47,6 +47,22 @@ class StocksFragment : BaseFragment() {
                 if (currentProfit > highestProfit) {
                     highestProfit = currentProfit
                 }
+            }
+        }
+        return highestProfit
+    }
+
+    private fun getHighestProfitQuickly(stockPrices: List<Int>): Int {
+        if (stockPrices.size <= 1) return 0
+        var minPrice = stockPrices[0]
+        var highestProfit = stockPrices[1] - stockPrices[0]
+        for (index in 1 until stockPrices.size) {
+            if (stockPrices[index] < minPrice) {
+                minPrice = stockPrices[index]
+            }
+            val highestProfitCandidate = stockPrices[index] - minPrice
+            if (highestProfitCandidate > highestProfit) {
+                highestProfit = highestProfitCandidate
             }
         }
         return highestProfit
