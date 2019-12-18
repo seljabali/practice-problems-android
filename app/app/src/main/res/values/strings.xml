@@ -37,4 +37,7 @@
     <string name="stocks">Stocks</string>
     <string name="find_highest_profit">Find Highest Profit</string>
     <string name="stock_prices_during_day">Stock prices during day</string>
+
+    <!-- Linked Lists -->
+    <string name="linked_lists">Linked Lists</string>
 </resources>

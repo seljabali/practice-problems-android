@@ -12,6 +12,7 @@ import com.seljabali.practiceproblems.ui.animation.AnimationFragment
 import com.seljabali.practiceproblems.ui.clock.ClockFragment
 import com.seljabali.practiceproblems.ui.compression.CompressTextFragment
 import com.seljabali.practiceproblems.ui.htree.HTreeFragment
+import com.seljabali.practiceproblems.ui.linkedlist.LinkedListsFragment
 import com.seljabali.practiceproblems.ui.phonedialer.PhoneDialerFragment
 import com.seljabali.practiceproblems.ui.stocks.StocksFragment
 import kotlinx.android.synthetic.main.fragment_landing_page.*
@@ -37,6 +38,7 @@ class LandingPageFragment : BaseFragment() {
         compressButton.setOnClickListener { showFragment(CompressTextFragment(), CompressTextFragment.TAG) }
         clockButton.setOnClickListener { showFragment(ClockFragment(), ClockFragment.TAG) }
         stocksButton.setOnClickListener { showFragment(StocksFragment(), StocksFragment.TAG) }
+        linkedListButton.setOnClickListener { showFragment(LinkedListsFragment(), LinkedListsFragment.TAG) }
     }
 
     private fun showFragment(baseFragment: BaseFragment, tag: String) {
