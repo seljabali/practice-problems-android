@@ -9,6 +9,8 @@ import com.seljabali.practiceproblems.R
 import com.seljabali.practiceproblems.ui.HomeActivity
 import com.seljabali.practiceproblems.ui.anagram.AnagramFragment
 import com.seljabali.practiceproblems.ui.animation.AnimationFragment
+import com.seljabali.practiceproblems.ui.binarytree.BinaryTree
+import com.seljabali.practiceproblems.ui.binarytree.BinaryTreeFragment
 import com.seljabali.practiceproblems.ui.clock.ClockFragment
 import com.seljabali.practiceproblems.ui.compression.CompressTextFragment
 import com.seljabali.practiceproblems.ui.htree.HTreeFragment
@@ -37,6 +39,7 @@ class LandingPageFragment : BaseFragment() {
         compressButton.setOnClickListener { showFragment(CompressTextFragment(), CompressTextFragment.TAG) }
         clockButton.setOnClickListener { showFragment(ClockFragment(), ClockFragment.TAG) }
         stocksButton.setOnClickListener { showFragment(StocksFragment(), StocksFragment.TAG) }
+        binaryTreeButton.setOnClickListener { showFragment(BinaryTreeFragment(), BinaryTreeFragment.TAG) }
     }
 
     private fun showFragment(baseFragment: BaseFragment, tag: String) {

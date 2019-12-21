@@ -55,5 +55,11 @@
             android:layout_height="wrap_content"
             android:text="@string/stocks" />
 
+        <Button
+            android:id="@+id/binaryTreeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/binary_tree" />
+
     </LinearLayout>
 </ScrollView>
