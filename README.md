@@ -1,6 +1,6 @@
 ## Anagram
 Checks if two texts are anagrams of each other in O(n) time. <br> <br>
-![screenshot](https://github.com/seljabali/practice-problems-android/blob/master/screen-shots/anagram.png)
+<img src="https://github.com/seljabali/practice-problems-android/blob/master/screen-shots/anagram.png" alt="" data-canonical-src="" width="600" height="800" />
 
 ## HTree
 Draws an [HTree](https://en.wikipedia.org/wiki/H_tree) in the desired level. <br> <br>
@@ -8,7 +8,7 @@ Draws an [HTree](https://en.wikipedia.org/wiki/H_tree) in the desired level. <br
 
 ## Phone Dialer
 Generates the possible words entered by a phone number. <br> <br>
-![screenshot](https://github.com/seljabali/practice-problems-android/blob/master/screen-shots/phone-dialer.png)
+<img src="https://github.com/seljabali/practice-problems-android/blob/master/screen-shots/phone-dialer.png" alt="" data-canonical-src="" width="600" height="800" />
 
 ## Animation
 An animation of two letters flipping their axises. <br> <br>
